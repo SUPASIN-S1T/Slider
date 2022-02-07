@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container {
+    width: 100%;
+    max-width: 420px;
+    height: 500px;
+    background: #ffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.user-img {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.user-detail {
+    text-align: center;
+}
+
+.btn-contact {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: rgb(255, 174, 0);
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+    opacity: .8;
+}
+
+
+.btn-left {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(255, 174, 0);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.btn-right {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(255, 174, 0);
+    font-size: 1.5em;
+    cursor: pointer;
+}
